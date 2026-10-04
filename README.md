@@ -75,3 +75,5 @@ Delivered cash-on-delivery orders are marked `COLLECTED`; this records an admin 
 
 This is a runnable local/demo food ordering system. Cash on delivery is the only payment method. It does not include a real courier service, live GPS tracking, Google Maps, restaurant vendor accounts, OTP/SMS, email delivery, refunds or an online payment gateway. Status changes are performed by the admin. Google credentials and a live Google consent flow cannot be supplied or tested on your behalf.
 "# Food-Delivery" 
+
+Local Windows configuration: run.bat and run-google.bat load GOOGLE_CLIENT_ID and GOOGLE_CLIENT_SECRET from the ignored .env file beside the scripts. Use unquoted KEY=value lines. Restart the application after changing credentials.
