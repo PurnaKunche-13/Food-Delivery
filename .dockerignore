@@ -1,6 +1,0 @@
-target
-dist
-data
-.env
-.git
-*.zip
